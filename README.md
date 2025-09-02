@@ -14,12 +14,12 @@ to withdraw money,deposit.
 
 ## Class Diagram:
 
-<img width="1187" height="549" alt="image" src="https://github.com/user-attachments/assets/8a79b722-d38c-4d2c-89b9-358d9ae6a2d8" />
+<img width="1134" height="572" alt="image" src="https://github.com/user-attachments/assets/0e82caab-4fde-46fc-8149-c8ac37ed0459" />
 <br>
 
 ## Activity Diagram:
 
-<img width="635" height="791" alt="image" src="https://github.com/user-attachments/assets/4c65830b-c20e-4d67-82ea-d87a3f002cb3" />
+<img width="715" height="869" alt="image" src="https://github.com/user-attachments/assets/7be9b606-49b7-43a9-bad8-940418a3e913" />
 <br>
 
 ## Sequence Diagram:
