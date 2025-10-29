@@ -1,49 +1,70 @@
-# Exp-1 ATM & BANKING SYSTEM
-
-## AIM: 
+# LAB-1-ATM
+## ATM and Banking SYSTEM
+### AIM: 
 To study the problem statement, SRS document and draw all the UML diagrams of ATM
 System.
 
-## PROCEDURE:
-To create ATM System software that will meet the needs of the applicant and help them
-to withdraw money,deposit.
+<br>
 
-### USECASE DIAGRAM:
-Identify Actors (`Customer`, `Manager`, `Loan Manager`, `Employee`) and the core functionalities they use, such as Login, Deposit, Withdrawal, and Account Creation.
+### SRS(Procedure):
+#### Use Case Diagram
+- First, identify the **actors** (like `Customer`, `Technician`) and the **system boundary** (the "ATM"). Then, list all the **use cases** (functions like `Withdraw Cash`, `Maintain ATM`) inside the boundary and connect the actors to the functions they perform.
 
-### CLASS DIAGRAM:
-Model the static structure of the system, defining the Classes (`BANK`, `ACCOUNT`, `DEBIT CARD`, `ATM Transaction`), their Attributes (`data`), and Relationships (e.g., generalization for Current Acc/Savings Acc).
+#### Class Diagram
+- Identify the main **classes** (nouns like `Account`, `Customer`). For each class, define its **attributes** (data like `+AccNo`) and **methods** (actions like `+checkBalance()`). Finally, draw lines to show **relationships** like inheritance ("is-a") and association ("has-a") between them.
 
-### ACTIVITY DIAGRAM:
-Illustrate the flow of control for a typical process, such as Account Creation and subsequent Transaction initiation (Insert Card $\rightarrow$ Enter PIN $\rightarrow$ Transaction Option).
+#### Activity Diagram
+- Map the step-by-step **workflow** for a single use case (like "Withdrawal") from a start node to an end node. Use **action** boxes for steps, **diamond** shapes for decisions (like "PIN Valid?"), and thick bars to show **parallel activities**.
 
-### SEQUENCE DIAGRAM:
-Detail the time-ordered interaction between objects (`USER`, `ATM`, `BANK`, `CHECKING ACCOUNT`) for a specific scenario, such as a successful cash Withdrawal.
+#### Sequence Diagram
+- Show how objects interact **over time** for one specific scenario (like "Account Creation"). Place objects as vertical **lifelines** across the top and draw **numbered messages** from top to bottom to show the exact sequence of calls between them.
 
-### COMMUNICATION DIAGRAM:
-Show the structural organization and message flow for the Account Creation process between the Customer, Employee, and Manager.
+#### Communication Diagram
+- This diagram shows the **relationships** between objects rather than time. Place the objects (`Customer`, `Manager`, `ATM`) on the diagram, draw **links** between them, and then add **numbered messages** along those links to show the sequence of communication.
 
-### PACKAGE DIAGRAM:
-Organize the system into high-level logical groupings (ATM and BANK SYSTEM packages) and show how the USER interfaces with the functionalities within each package.
+#### Package Diagram
+- Group related classes from your class diagram into **packages** (like folders, e.g., `Accounts`, `Transactions`, `UserManagement`). This organizes your system into logical modules. Then, draw dashed arrows (dependencies) to show when one package needs to use a class from another.
 
-## UML DIAGRAMS:
-### USECASE DIAGRAM :
-![UseCaseDiagram1](https://github.com/user-attachments/assets/71469aa3-b726-426e-9804-8339a94e7b8c)
+<br>
 
-### CLASS DIAGRAM :
-![ClassDiagram1](https://github.com/user-attachments/assets/9eed2131-c702-4400-b81f-be2b998603f6)
 
-### SEQUENCE DIAGRAM :
-![SequenceDiagram1](https://github.com/user-attachments/assets/23f0285f-f3a4-4fc8-a6ec-ac2e7e1010b8)
+### UML DIAGRAMS:
+#### Usecase Diagram:
 
-### ACTIVITY DIAGRAM :
-![ActivityDiagram1](https://github.com/user-attachments/assets/622e07cd-23b5-44b4-911a-228ed50f93ce)
+![UseCaseDiagram1](https://github.com/user-attachments/assets/5cc08bcb-e02d-4c87-a91f-72a8f4742c98)
 
-### COMMUNICATION DIAGRAM :
-![CommunicationDiagram1](https://github.com/user-attachments/assets/c797175b-c509-4cc3-8d06-173eb112f525)
+<br>
 
-### PACKAGE DIAGRAM :
-![PackageDiagram1](https://github.com/user-attachments/assets/35fea523-f1a0-426b-b45c-ec3bb0e3f8a1)
+#### Class Diagram:
+
+![ClassDiagram1](https://github.com/user-attachments/assets/aa7a0f23-32f4-477b-b295-5acb283b33aa)
+
+<br>
+
+#### Activity Diagram:
+
+![ActivityDiagram1](https://github.com/user-attachments/assets/3e2edebe-5fe4-4839-a592-099ff445f3a0)
+
+<br>
+
+#### Sequence Diagram:
+
+![SequenceDiagram1](https://github.com/user-attachments/assets/e4e8d08c-9547-4eca-8afd-2a8c0b901992)
+
+<br>
+
+#### Communication Diagram:
+
+![CommunicationDiagram1](https://github.com/user-attachments/assets/65312018-d8aa-44b1-8ecd-77f1234a2fdf)
+
+<br>
+
+#### Package Diagram:
+
+![PackageDiagram1](https://github.com/user-attachments/assets/843e5976-a666-4dcd-badf-a54b68dfadd0)
+
+
+<br>
 
 ### RESULT: 
 Thus the Atm and banking System project was executed and the output was verified.
